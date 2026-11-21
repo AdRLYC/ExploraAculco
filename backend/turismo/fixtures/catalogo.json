@@ -1,0 +1,126 @@
+[
+  {
+    "model": "turismo.lugarturistico",
+    "pk": 1,
+    "fields": {
+      "nombre": "Cascada La Concepción",
+      "categoria": "Ecoturismo",
+      "descripcion": "Hermosa cascada natural ubicada en Aculco, ideal para actividades recreativas y fotografía.",
+      "ubicacion": "Cascada La Concepción, Aculco, Estado de México",
+      "imagen": "",
+      "fecha_actualizacion": "2026-11-20"
+    }
+  },
+  {
+    "model": "turismo.lugarturistico",
+    "pk": 2,
+    "fields": {
+      "nombre": "Cascada Tixhiñú",
+      "categoria": "Naturaleza",
+      "descripcion": "Atractivo turístico reconocido por su caída de agua y ambiente natural, perfecto para disfrutar de la tranquilidad y el ecoturismo.",
+      "ubicacion": "Aculco de Espinoza, Estado de México",
+      "imagen": "lugares/tixhiñú.jpg",
+      "fecha_actualizacion": "2026-11-20"
+    }
+  },
+  {
+    "model": "turismo.lugarturistico",
+    "pk": 3,
+    "fields": {
+      "nombre": "Centro Histórico de Aculco",
+      "categoria": "Turismo Cultural",
+      "descripcion": "Zona colonial con calles empedradas, arquitectura tradicional y espacios representativos de la historia y cultura del municipio.",
+      "ubicacion": "Centro de Aculco, Estado de México",
+      "imagen": "lugares/Centro_Histórico.jpg",
+      "fecha_actualizacion": "2026-11-20"
+    }
+  },
+  {
+    "model": "turismo.lugarturistico",
+    "pk": 4,
+    "fields": {
+      "nombre": "Ex Convento de San Jerónimo",
+      "categoria": "Historia",
+      "descripcion": "Construcción histórica de gran valor arquitectónico y religioso que representa parte importante del patrimonio cultural de Aculco.",
+      "ubicacion": "Aculco de Espinoza, Estado de México",
+      "imagen": "lugares/Ex_convento_San_Jerónimo.jpg",
+      "fecha_actualizacion": "2026-11-20"
+    }
+  },
+  {
+    "model": "turismo.lugarturistico",
+    "pk": 5,
+    "fields": {
+      "nombre": "Casa Hidalgo",
+      "categoria": "Patrimonio histórico",
+      "descripcion": "Sitio histórico relacionado con acontecimientos importantes de la independencia y la historia regional de Aculco. (Hotel)",
+      "ubicacion": "Centro Histórico de Aculco",
+      "imagen": "lugares/casa_hidalgo.jpg",
+      "fecha_actualizacion": "2026-11-20"
+    }
+  },
+  {
+    "model": "turismo.lugarturistico",
+    "pk": 6,
+    "fields": {
+      "nombre": "Peña de Ñado",
+      "categoria": "Aventura",
+      "descripcion": "Formaciones rocosas y paisajes naturales ideales para actividades de senderismo, ciclismo y fotografía panorámica.",
+      "ubicacion": "Zona montañosa de Aculco, Estado de México",
+      "imagen": "lugares/peña_de_ñado.jpg",
+      "fecha_actualizacion": "2026-11-20"
+    }
+  },
+  {
+    "model": "turismo.lugarturistico",
+    "pk": 7,
+    "fields": {
+      "nombre": "AculcoXtreme",
+      "categoria": "Tours de Aventura",
+      "descripcion": "Paquetes guiados aptos para toda la familia y no requieren experiencia previa.",
+      "ubicacion": "Aculco de Espinoza, Estado de México",
+      "imagen": "",
+      "fecha_actualizacion": "2026-11-20"
+    }
+  },
+  {
+    "model": "turismo.servicioturistico",
+    "pk": 1,
+    "fields": {
+      "servicio": "Recorrido guiado por el centro histórico",
+      "descripcion": "Paseo cultural por las principales calles, plazas y edificios históricos de Aculco.",
+      "precio": "$250 por persona",
+      "contacto": "cecyturismo@aculco.mx"
+    }
+  },
+  {
+    "model": "turismo.servicioturistico",
+    "pk": 2,
+    "fields": {
+      "servicio": "Tour a cascadas",
+      "descripcion": "Visita guiada a cascadas y paisajes naturales del municipio.",
+      "precio": "$350 por persona",
+      "contacto": "712 000 0000"
+    }
+  },
+  {
+    "model": "turismo.servicioturistico",
+    "pk": 3,
+    "fields": {
+      "servicio": "Experiencia gastronómica",
+      "descripcion": "Degustación de platillos típicos, quesos, dulces tradicionales y comida regional.",
+      "precio": "$300 por persona",
+      "contacto": "cecygastronomia@aculco.mx"
+    }
+  },
+  {
+    "model": "turismo.servicioturistico",
+    "pk": 4,
+    "fields": {
+      "servicio": "Hospedaje rural",
+      "descripcion": "Alojamiento en espacios tranquilos cercanos a zonas naturales.",
+      "precio": "$900 por noche",
+      "contacto": "712 111 2233"
+    }
+  }
+]
